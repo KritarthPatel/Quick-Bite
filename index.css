@@ -278,9 +278,14 @@ ul a:hover {
     color: wheat;
 }
 
+button {
+    transition: transform 0.3s ease;
+}
+
 button:hover {
     cursor: pointer;
     opacity: 0.5;
+    transform: scale(1.1);
 }
 
 .title {

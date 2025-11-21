@@ -296,14 +296,14 @@ button:hover {
 }
 
 .pu img {
-    width: 282px;
+    width: 300px;
     height: 282px;
     border: none;
     border-radius: 10px;
 }
 
 .pu {
-    margin-left: 50px;
+    margin-left: 32px;
 }
 
 .pu h2 {

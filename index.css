@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+body {
+    background-color: #F9F3EA;
+}
+
+.para {
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: Bebas Neue;
+}
+
+header {
+    background-color: wheat;
+}
+
+.navbar {
+    display: flex;
+    height: 80px;
+    background-color: wheat;
+    color: black;
+    align-items: center;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.3);
+}
+
+.nav-logo {
+    height: 70px;
+    width: 120px;
+}
+
+.logo {
+    margin-left: 15px;
+    background-image: url("Quick Bite.png");
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+}
+
+.delivery-btn {
+    margin-left: 100px;
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: black;
+    height: 40px;
+    width: 180px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.signin-btn {
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: black;
+    height: 40px;
+    width: 180px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.account-btn {
+    margin-left: 25px;
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: black;
+    height: 40px;
+    width: 180px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.dark {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: black;
+    height: 40px;
+    width: 180px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.quotes h3 {
+    margin-left: 60px;
+    color: rgb(111, 70, 19);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 0.85rem;
+}
+
+.nav-search {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: auto;
+    height: 300px;
+    background-image: url("img1.jpg"), url("img2.jpg"), url("img3.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left center, center center, right center; 
+    background-size: cover;
+    background-size: 33.33333% 100%, 33.33333% 100%, 33.33333% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+
+.div {
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.search p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.search i {
+    position: relative;
+    top: 45px;
+    left: 25px;
+}
+
+.searchbar {
+    display: flex;
+    border-radius: 30px;
+    margin: 10px;
+    height: 48px;
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.box {
+    display: grid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.box-img {
+    height: 150px;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: transform 0.4s ease;
+    overflow: hidden;
+}
+
+.box-img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.box-content p {
+    margin-top: 5px;
+    margin-left: 70px;
+    font-family: Lobster;
+}
+
+.brand {
+    display: grid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.brand-img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid transparent;
+    border-radius: 30%;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease;
+    overflow: hidden;
+}
+
+.brand-img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.brand-content p {
+    font-family: Lobster;
+}
+
+.location {
+    background-color: white;
+    margin: 80px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.3);
+}
+
+.track {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.x {
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.store {
+    height: 40px;
+    width: 120px;
+    display: flex;
+    background-color: black;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.work {
+    font-size: 30px;
+    color: white;
+    margin-top: 2px;
+}
+
+.a {
+    display: flex;
+    gap: 30px;
+}
+
+.j {
+    margin: 4px;
+    color: white;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.end {
+    height: 570px;
+    width: auto;
+    background-color: #2E3333;
+}
+
+.description {
+    margin-top: 50px;
+    background-color: #FFFFFF1A;
+    padding: 24px;
+    color: white;
+    width: 270px;
+}
+
+.end-box {
+    display: flex;
+    height: 520px;
+    width: auto;
+    margin-left: 250px;
+    gap: 30px;
+}
+
+.description p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+    text-decoration: none;
+    margin: 15px 0px;
+}
+
+ul a:hover {
+    color: wheat;
+}
+
+button {
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
+.title {
+    margin-top: 15px;
+    margin-left: 1150px;
+    color: gray;
+    font-size: 0.85rem;
+}
+
+.pu img {
+    width: 282px;
+    height: 282px;
+    border: none;
+    border-radius: 10px;
+}
+
+.pu {
+    margin-left: 50px;
+}
+
+.pu h2 {
+    margin-top: 10px;
+}
+
+.pu p {
+    width: 282px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 0.9rem;
+}
+
+
+body.dark-theme {
+  background-color: #111;
+  color: #f1f1f1;
+}
+
+body.dark-theme .nav-search {
+    color: black;
+}
+
+body.dark-theme header,
+body.dark-theme .navbar,
+body.dark-theme .nav-search,
+body.dark-theme .location,
+body.dark-theme .information,
+body.dark-theme footer {
+  background-color: black;
+}
+
+body.dark-theme .box-content,
+body.dark-theme .brand-content {
+  background-color: black;
+  color: white;
+}
+
+.dark {
+  cursor: pointer;
+}
+
+body.dark-theme header .navbar {
+    background-color: #333;
+}
+
+body.dark-theme header .quotes h3 {
+    color: white;
+}
+
+body.dark-theme .navbar .delivery .delivery-btn , 
+body.dark-theme .navbar .signin a .signin-btn,
+body.dark-theme .navbar .account .account-btn {
+    background-color: #333;
+    border: 1px solid white;
+    color: white;
+}
+
+body.dark-theme .logo {
+    margin-left: 15px;
+    background-image: url("Quick Bite - Dark.jpg");
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+}
+
+body.dark-theme .nav-search .div {
+    background-color: black;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+body.dark-theme .nav-search .div .search p {
+    color: white;
+}
+
+body.dark-theme .nav-search .div .search i {
+    color: white;
+}
+
+body.dark-theme .searchbar {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}

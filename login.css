@@ -5,7 +5,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: transparent;
+    background-image: url('FoodDelivery.jpg');
+    background-position: center;
 }
 
 .top {
